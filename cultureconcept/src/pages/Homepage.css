@@ -72,6 +72,43 @@ a{
 .scroll-text{
     font-size: 0.9rem;
 }
+/* client-testimonial */
+.Client-testimonial{
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #D0D0D0;
+}
+.client-side{
+    color: #7a7a7a;
+    font-size: 1.2rem;
+}
+.side-color{
+    color: #0B2E33;
+    font-size: 1.2rem;
+}
+.client-sideparagraph{
+    padding-top: 1rem;
+    color: #7a7a7a;
+    font-size: 0.8rem;
+}
+.client-logo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    filter: grayscale(100%);
+cursor: pointer;
+}
+.client-logo:hover{
+    filter: grayscale(0%);
+}
+.clients-logo
+{
+    padding-top: 2rem;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
 /* Projects */
 .Projects{
     background-image: linear-gradient(to right,#DEDEDE 0%, #DEDEDE 30%, 
@@ -120,8 +157,6 @@ a{
 
 }
 /* video */
-
-
 .video-text{
     font-size: 0.8rem;
     color:#7a7a7a;
@@ -135,12 +170,7 @@ a{
     padding-top: 4rem;
 }
 /* textimonial */
-.text-back{
-    background-color: #d0d0d0;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    width: 32%;
-}
+
 .client-paragraph{
     color:#7a7a7a;
     font-size: 0.8rem;
@@ -204,6 +234,7 @@ hr{
 .Slide-image{
 filter: grayscale(100%);
 cursor: pointer;
+
 }
 .Slide-image:hover{
 filter: grayscale(0%);
@@ -226,3 +257,260 @@ cursor: pointer;
 .Slide-image2:hover{
     filter: grayscale(0%);
 }
+.whatsapp-logo{
+    width: 5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.whatsapp-logo:hover{
+    filter: grayscale(0%);
+}
+  
+  
+@media(max-width:576px){
+    body{
+        width: 111vw;
+        overflow-x: hidden;
+    }
+ 
+    .copy{
+        padding: 3.2rem 0; 
+    }
+    .copy .text-bold{
+        text-align: start;
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 4rem;
+        color:#0B2E33;
+    }
+    .header-button{
+        padding-top: 3rem;
+    }
+    .filled{
+        color:#EB595F;
+        border: 0.1rem solid #EB595F;
+        border-radius: 10rem;
+        padding: 0.3rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    .arrow{
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+    .btn{
+        color:#EB595F;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .text-hero-regular{
+        color:#7a7a7a;
+        font-size: 0.9rem;
+        padding-top: 1.5rem;
+    }
+    .hero-image2{
+        height:5rem;   
+    }
+    .Hero-images{
+        padding-top: 1rem;
+    }
+ .house-image{
+       padding-top: 1rem;
+    }
+    
+    .year{
+        color: #7a7a7a;
+        font-size: 0.9rem;
+        text-align: right;
+        padding-top: 2rem;
+    }
+    .scrollimg{
+        color:#EB595F;   
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .scroll-text{
+        font-size: 0.9rem;
+    }
+    /* client-testimonial */
+.Client-testimonial{
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #D0D0D0;
+}
+.client-side{
+    color: #7a7a7a;
+    font-size: 1.2rem;
+}
+.side-color{
+    color: #0B2E33;
+    font-size: 1.2rem;
+}
+.client-sideparagraph{
+    padding-top: 1rem;
+    color: #7a7a7a;
+    font-size: 0.9rem;
+}
+.client-logo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding: 1rem 0;
+    filter: grayscale(0%);
+}
+.clients-logo{
+    padding: 1rem 0; 
+}
+/* Projects */
+.Projects{
+    background-image: linear-gradient(to right,#DEDEDE 0%, #DEDEDE 50%, 
+    #D0D0D0 50%, #D0D0D0 100%)
+}
+.project-img{
+    padding: 2rem 0;
+    border-radius: 0.5rem;
+}
+.project-text{
+    padding-top:3rem;
+    color:#0B2E33;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: start;
+}
+.p-change{
+    color:#7a7a7a;
+}
+.project-score .Wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 2.3rem;
+
+
+}
+.Number{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#0B2E33;
+}
+.plus{
+    font-size: 1.2rem;
+    color: #EB595F;
+    font-weight: 600;
+}
+.number-text{
+    font-size: 0.9rem;
+    color:#7a7a7a;
+    font-weight: 400;
+}
+.num-1{
+    padding-right: 4rem;
+}
+/* video */
+.video-text{
+    font-size: 0.9rem;
+    color:#7a7a7a;
+    font-weight: 500;
+    padding: 2rem 0;
+}
+.v-change{
+    color:#0B2E33;
+}
+.video-btn{
+    padding-top: 2rem;
+}
+/* textimonial */
+.text-back{
+    background-color: #d0d0d0;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 32%;
+}
+.client-paragraph{
+    color:#7a7a7a;
+    font-size: 0.9rem;
+    text-align: center;
+
+}
+.client-say{
+    text-align: left;
+    padding-top: 2rem;
+    text-align: center;
+}
+.Test-p2{
+    color:#EB595F;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+.Test-designation2{
+    text-align: start;
+    font-size: 0.9rem;   
+    color:#0B2E33;
+    padding: 0.6rem 0;
+}
+.Test-para2{
+    color:#7a7a7a;
+    font-size: 0.8rem;
+    text-align: start;
+}
+.Stars2{
+    color:#EB595F;
+    font-size: 0.9rem;
+    text-align: start;
+    padding: 0.6rem 0;
+}
+/* Slide */
+.Slide-text{
+    font-size: 0.9rem;
+    color:#7a7a7a;
+    font-weight: 500;
+    text-align: left;
+    padding: 1.5rem 0;
+}
+.slide-change{
+    color:#0B2E33;
+}
+.Slide2-text{
+    font-size: 0.9rem;
+    color:#7a7a7a;
+    font-weight: 500;
+    text-align: right;
+    padding: 1.5rem 0;
+}
+.Slides{
+    padding: 1.5rem 0;
+    background-image: linear-gradient(to bottom,#DEDEDE 0%, #DEDEDE 50%, 
+    #D0D0D0 50%, #D0D0D0 100%)
+}
+.Slide-image{
+filter: grayscale(0%);
+margin-top: 1rem;
+}
+/* commingsoon */
+.Comingsoon{
+    padding: 2rem 0;
+    text-align: center;
+}
+.coming-heading{
+    font-size: 2.6rem;
+    font-weight: 500;
+    color:#EB595F;
+    text-align: center;
+}
+.Slide-image2{
+    filter: grayscale(0%);
+
+}    
+.whatsapp-logo{
+    width: 5rem;
+    filter: grayscale(0%);
+    
+}
+}
+

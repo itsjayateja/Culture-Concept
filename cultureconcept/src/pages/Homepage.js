@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Layout from "../components/layout/Layout.js";
 import "./Homepage.css";
+import Whatsapp from "../assets/Whatsapp.png";
 // import Heroimg from "../assets/Hero.png";
 import "../pages/About.css";
 import { BsArrowRight } from "react-icons/bs";
@@ -26,15 +27,19 @@ import { TbStarFilled } from "react-icons/tb";
 import client1 from "../assets/client1.jpg";
 import client2 from "../assets/client2.jpg";
 import client3 from "../assets/client3.png";
+import Clientlogo1 from "../assets/c-t1.png";
+import Clientlogo2 from "../assets/c-t2.png";
+import Clientlogo3 from "../assets/c-t3.png";
+import Clientlogo4 from "../assets/c-t4.png";
 
 const Homepage = () => {
-  const settings1 = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  // const settings1 = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // };
   const settings = {
     dots: true,
     infinite: true,
@@ -112,6 +117,81 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+        <div className="Whatsapp">
+          <a href="https://wa.me/9010611618" target="_blank">
+            <img src={Whatsapp} alt="whatsapp-logo" className="whatsapp-logo" />
+          </a>
+        </div>
+      </section>
+      <hr />
+      {/* Client Testimonial */}
+      <section className="Client-testimonial">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-lg-12 col-md-6 col-sm-12"
+              data-aos="zoom-in-right"
+            >
+              <div className="client-side">
+                Trusted by over
+                <span className="side-color">
+                  <nbsp /> 10K Clients and Brands.
+                </span>
+              </div>
+              <div className="client-sideparagraph">
+                Bring your dream home to life with one-on -one <br />
+                Design helps and hand picked products tailored your style,
+                <br /> Space and Budget
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="clients-logo">
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="zoom-in-right"
+              >
+                <img
+                  src={Clientlogo1}
+                  className="client-logo w-50"
+                  alt="client-logo"
+                />
+              </div>
+              <div
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="zoom-in-right"
+              >
+                <img
+                  src={Clientlogo2}
+                  className="client-logo w-50"
+                  alt="client-logo"
+                />
+              </div>
+              <div
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="zoom-in-right"
+              >
+                <img
+                  src={Clientlogo3}
+                  className="client-logo w-25"
+                  alt="client-logo"
+                />
+              </div>
+              <div
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="zoom-in-right"
+              >
+                <img
+                  src={Clientlogo4}
+                  className="client-logo w-50"
+                  alt="client-logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <hr />
       {/* Project */}
@@ -161,13 +241,13 @@ const Homepage = () => {
                       </p>
                     </div>
                   </div>
-                  <a href="/about" className="btn btn-outline filled">
-                    About Us
-                    <span className="arrow">
-                      <BsArrowRight />
-                    </span>
-                  </a>
                 </div>
+                <a href="/about" className="btn btn-outline filled">
+                  About Us
+                  <span className="arrow">
+                    <BsArrowRight />
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -544,6 +624,7 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+      <hr />
     </Layout>
   );
 };

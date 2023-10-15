@@ -54,7 +54,7 @@ const About = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-4"
+                className="col-lg-3 col-md-6 "
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-4"
+                className="col-lg-3 col-md-6 "
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -76,7 +76,7 @@ const About = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-4"
+                className="col-lg-3 col-md-6"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -220,6 +220,7 @@ const About = () => {
           </div>
         </section>
       </section>
+      <hr />
     </Layout>
   );
 };

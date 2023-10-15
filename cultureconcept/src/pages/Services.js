@@ -87,7 +87,7 @@ const Services = () => {
               className="col-lg-3 col-md-6 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <img src={Slide1} className="Slide-image w-100" alt="Projects" />
+              <img src={Slide1} className="Slide-image  w-100" alt="Projects" />
               <div className="Service-name">Full Home Interior</div>
             </div>
             <div

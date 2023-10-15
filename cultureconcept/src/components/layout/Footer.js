@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-sm-6 ft-1">
+          <div className="col-lg-4 col-md-6 col-sm-6 ft-1">
             <a className="navbar-brand" href="/">
               <img src={Footerlogo} alt="footer-logo" className="footerlogo" />
             </a>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-sm-6 ft-3">
+          <div className="col-lg-4 col-md-6 col-sm-6 ft-3">
             <div className="address">
               <h5>
                 <span>
@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="Footer-phone">+91 9966741412</div>
             <div className="registration">hello@cultureconcept.in</div>
           </div>
-          <div className="col-lg-2 col-sm-6 ft-4">
+          <div className="col-lg-2 col-md-6 col-sm-6 ft-4">
             <div className="contact">
               <h5>
                 <span>
@@ -81,7 +81,7 @@ const Footer = () => {
               <Link to="/contact">Contact</Link>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 ft-6">
+          <div className="col-lg-2 col-md-6 col-sm-6 ft-6">
             <div className="contact">
               <div className="nav-links">
                 <Link to="/policy">Privacy Policy</Link>

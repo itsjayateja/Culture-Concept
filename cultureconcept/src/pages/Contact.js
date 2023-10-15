@@ -149,6 +149,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <hr />
     </Layout>
   );
 };
