@@ -1,0 +1,66 @@
+
+.navbar{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    box-shadow: 0 0.1rem 0.1rem -0.1rem rgb(219, 219, 219);
+    color:#ABABAB;
+    background-color: transparent;
+  }
+  .container-fluid{
+    margin: 0 5rem;
+    justify-content:space-between;
+  }
+  .nav-link{
+    font-weight: 500 ;
+    color:#ABABAB;
+    margin: 0 0.5rem;
+  }
+  .nav-link:hover{
+    color:#EB595F;
+    transition: 0.3s ease-in-out; 
+  }
+   .active{
+    color:#EB595F;
+  }
+  .navbar-brand{
+  text-decoration: none;
+  color:#EB595F ;
+  }
+  .navbar-toggler{
+    color: #EB595F;
+    font-size: 1.5rem;
+  }
+  .talk{
+    padding: 0.3rem 1rem;
+    color:#EB595F;
+    border: #EB595F 1px solid;
+    border-radius: 10rem;
+    font-size: 0.8rem;
+  }
+  .talk:hover{
+    background-color: #EB595F;
+    color:#ffffff;
+  }
+  /* .nav-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .nav-icons a{
+    font-size: 1.1rem;
+    color:#919191;
+    padding:0 0.8rem;
+  }
+  .nav-icons a:hover{
+    color:#B81F25;
+  } */
+.header-logo{
+    width:1.6rem;
+}
+
+@media(max-width:576px){
+    .container-fluid{
+        margin: 0 2rem;
+        justify-content:space-between;
+      }
+}

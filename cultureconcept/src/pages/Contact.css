@@ -1,0 +1,70 @@
+.about{
+    width:95vw;
+}
+.abt-image{
+    width:100%;
+}
+.abt-heading{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:#EB595F;
+}
+.Paragraph{
+    font-size: 0.8rem;
+    color:#7A7A7A;
+    font-weight: 400;
+    text-align: center;
+}
+.Contacts{
+    background-color: #D0D0D0;
+    padding: 2rem 0;
+    justify-content:start;
+   
+}
+.contact-text{
+    font-size: 0.8rem;
+    color: #7A7A7A;
+}
+.cnticons{
+    color:#EB595F;
+    font-size: 0.8rem;
+}
+.imgname{
+    padding-left: 0.6rem;
+    color:#EB595F;
+    font-size:0.8rem;
+    font-weight: 600;
+}
+.textimage1{
+    font-size: 0.8rem;
+    color:#7A7A7A;
+    padding-top: 0.4rem;
+}
+.contact-heading{
+    color:#EB595F;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.form-control{
+    color:#a6a6a6;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+.btn2{
+    color:#EB595F;
+    border: 1px solid #EB595F;
+    border-radius: 10rem;
+    padding: 0.4rem 2.5rem;
+    font-size: 0.8rem;
+}
+.btn2:hover{
+    color:#fff;
+    background-color: #EB595F;
+}
+.confirm{
+    color:#EB595F;
+    font-size: 0.8rem;
+    padding: 1rem 0rem;
+    font-weight: 600;
+}

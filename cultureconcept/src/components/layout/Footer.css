@@ -1,0 +1,100 @@
+.footer{
+    background-color: #dedede;
+    color:#0B2E33;
+    padding: 1.5rem;
+    justify-content: center;
+    border-top:1px solid #D0D0D0;
+
+ 
+}
+.container{
+    align-content: space-between;
+}
+.footerlogo{
+    width:2.5rem;
+    padding-bottom: 1rem;
+}
+.ft-1 p{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    color:#7A7A7A;
+}
+.social-icons a {
+padding:1rem 0rem;
+text-align: center;
+align-items: center;
+align-content: center;
+margin:0 0.4rem;
+color:#7A7A7A;
+font-size: 0.8rem;
+}
+.social-icons a:hover{
+    color:#0B2E33;
+}
+ .registration{
+    padding: 0.5rem 0rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.3px;  
+    font-weight: 600;
+}
+.ft-3 h5{
+ font-weight: 600;
+ font-size: 1rem;
+}
+.address-text{
+    padding: 0.5rem 0rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.3px; 
+    color:#7A7A7A;
+}
+span{
+    font-size: 0.9rem;
+    margin-right: 0.3rem;
+    text-align: center;
+
+}
+.Footer-phone{
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    color:#7A7A7A;
+}
+.ft-4 h5{
+    font-weight: 600;
+    font-size: 1rem;
+   }
+   .contactus-text {
+       padding: 0.5rem 0rem;  
+   }
+   .footer a{
+    /* text-decoration:underline; */
+    list-style-type: none;
+    text-decoration: none;
+    color:#7a7a7a;
+    font-size: 0.7rem;
+    font-weight: 500;
+       }
+       .footer a:hover{
+        color:#0B2E33 ;
+       }
+       .ft-6 .nav-links{
+         padding-top: 1.5rem;
+       }
+
+   /* h6{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.3px; 
+   } */
+   /* .footer a{
+text-decoration:underline;
+color:#EDF6ED;
+font-size: 0.7rem;
+   }
+   .footer a:hover{
+    color:#FF8B00 ;
+   } */

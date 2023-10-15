@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+.Projectsmain2{
+    padding: 2rem 0;
+}
+.portfolio{
+    text-align: center;
+    color: #7a7a7a;
+    padding: 1rem;
+}
+
+.card{
+    background-color: #dedede;
+    padding: 1.5rem;
+
+}
+.Service-name1{
+    padding-top: 0.5rem;
+    text-align: left;
+    color:#EB595F;
+    font-size: 0.9rem;
+}

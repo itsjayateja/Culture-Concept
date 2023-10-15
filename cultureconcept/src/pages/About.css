@@ -1,0 +1,112 @@
+.about{
+    width:95vw;
+}
+.abt-image{
+    width:100%;
+}
+.abt-heading{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:#EB595F;
+    padding: 1.5rem 0;
+}
+/* .History{
+    background-color: #D0D0D0;
+    padding: 0.5rem 2rem;
+    max-width: 100%;
+} */
+.para-heading{
+    text-align: center;
+    font-size: 1rem;
+    color:#0B2E33;
+    font-weight: 600;
+}
+.p-heading{
+    text-align: center;
+    font-size: 1rem;
+    color:#0B2E33;
+    font-weight: 600;
+}
+.Paragraph{
+    font-size: 0.8rem;
+    color:#7A7A7A;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+/* Long Strip */
+.long-strip{
+    background-color: #d0d0d0;
+    padding: 2.5rem 0;
+}
+
+.Long-heading{
+    color:#EB595F;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.c-small{
+    color:#7A7A7A;
+    font-size: 0.8rem;
+}
+.Firm-history{
+    padding: 1.5rem 0.8rem;
+    text-align: center;
+}
+
+/* TESTIMONIAL */
+/*  */
+/* .Testimonial-heading{
+    text-align: center;
+} */
+.Testimonial{
+    padding-bottom: 1rem;
+}
+.Test-p{
+    color:#EB595F;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.Test-designation{
+    color:#0B2E33;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+.Stars{
+    color: #EB595F;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.Test-para{
+    color: #7A7A7A;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.active{
+border-bottom: none;
+}
+
+.carousel-control-prev-icon{
+    background-color: #EB595F;
+    height: 2rem;
+    width:2rem;
+    border-radius: 50%;
+    font-size: 0.7rem;
+   
+}
+.carousel-control-next-icon{
+    background-color: #EB595F;
+    height: 2rem;
+    width:2rem;
+    border-radius: 50%;
+    font-size: 0.7rem;
+}
+/* .Clients{
+    background-color: #d0d0d0;
+    justify-content: flex-end;
+} */

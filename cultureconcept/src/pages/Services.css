@@ -1,0 +1,38 @@
+.Service-heading{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:#EB595F;
+    padding: 1.5rem 0;
+}
+.Service-name{
+    color: #EB595F;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    text-align: center;
+}
+.Service-icons{
+    color:#EB595F;
+    font-size: 2rem;
+    text-align: center;
+}
+.Service-heading2{
+color: #0B2E33;
+font-size: 1rem;
+font-weight: 400;
+text-align: center;
+}
+.Services-Strip{
+    padding: 2rem 0;
+}
+.s-small{
+    color: #7a7a7a;
+font-size: 0.8rem;
+font-weight: 400;
+text-align: center;
+padding-top: 0.5rem;
+}
+.Services-points{
+    padding: 2rem 0;
+}
