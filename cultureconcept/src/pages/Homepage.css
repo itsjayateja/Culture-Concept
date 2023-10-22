@@ -96,12 +96,12 @@ a{
     justify-content: center;
     text-align: center;
     justify-items: center;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 cursor: pointer;
 }
-.client-logo:hover{
+/* .client-logo:hover{
     filter: grayscale(0%);
-}
+} */
 .clients-logo
 {
     padding-top: 2rem;
@@ -231,14 +231,24 @@ hr{
     background-image: linear-gradient(to bottom,#DEDEDE 0%, #DEDEDE 50%, 
     #D0D0D0 30%, #D0D0D0 100%)
 }
+
+/* .Slide-image{
+    transition: tranform .75s;
+}
+.Slide-image{
+    cursor: pointer;
+    transform: scale(1.15);
+} */
 .Slide-image{
 filter: grayscale(100%);
-cursor: pointer;
-
+transition: tranform 5s;
 }
 .Slide-image:hover{
 filter: grayscale(0%);
+cursor: pointer;
+transform: scale(1.15);
 }
+
 /* commingsoon */
 .Comingsoon{
     padding: 2rem 0;
@@ -249,27 +259,23 @@ filter: grayscale(0%);
     font-weight: 500;
     color:#EB595F;
     text-align: center;
+    padding: 1rem 0;
 }
 .Slide-image2{
-    filter: grayscale(100%);
-cursor: pointer;
-}
-.Slide-image2:hover{
     filter: grayscale(0%);
+
 }
+/* .Slide-image2:hover{
+    filter: grayscale(0%);
+} */
 .whatsapp-logo{
-    width: 5rem;
+    width: 10rem;
     position: fixed;
     bottom: 2rem;
-    right: 2rem;
+    right: 0.2rem;
     z-index: 99;
-    filter: grayscale(100%);
-    cursor: pointer;
+   
 }
-.whatsapp-logo:hover{
-    filter: grayscale(0%);
-}
-  
   
 @media(max-width:576px){
     body{
@@ -502,14 +508,9 @@ margin-top: 1rem;
     font-weight: 500;
     color:#EB595F;
     text-align: center;
-}
-.Slide-image2{
-    filter: grayscale(0%);
-
-}    
+}   
 .whatsapp-logo{
-    width: 5rem;
-    filter: grayscale(0%);
+    width: 8rem;
     
 }
 }

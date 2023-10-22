@@ -33,13 +33,6 @@ import Clientlogo3 from "../assets/c-t3.png";
 import Clientlogo4 from "../assets/c-t4.png";
 
 const Homepage = () => {
-  // const settings1 = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // };
   const settings = {
     dots: true,
     infinite: true,
@@ -146,6 +139,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+
         <div className="clients-logo">
           <div className="container">
             <div className="row">
@@ -527,6 +521,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+        {/* Projects */}
         <div className="Slides">
           <div className="container">
             <div className="row">
