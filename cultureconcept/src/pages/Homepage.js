@@ -128,7 +128,7 @@ const Homepage = () => {
               <div className="client-side">
                 Trusted by over
                 <span className="side-color">
-                  <nbsp /> 10K Clients and Brands.
+                  <nbsp /> 10,000+ Clients and Brands.
                 </span>
               </div>
               <div className="client-sideparagraph">

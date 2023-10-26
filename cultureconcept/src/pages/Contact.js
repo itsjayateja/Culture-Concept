@@ -6,20 +6,31 @@ import "../pages/Contact.css";
 import { FaMobileAlt } from "react-icons/fa";
 import { FiMapPin, FiMail } from "react-icons/fi";
 
-const Result = () => {
-  return (
-    <p className="confirm">
-      Your Message has been successfully sent. I will Contact you Soon{" "}
-    </p>
-  );
+const Result = ({ success, message }) => {
+  return <p className={success ? "confirm" : "error"}>{message}</p>;
 };
 
 const Contact = () => {
-  const [result, showResult] = useState(false);
+  const [result, setResult] = useState({ success: false, message: "" });
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const formData = new FormData(form.current);
+    const data = {};
+    formData.forEach((value, key) => {
+      data[key] = value;
+    });
+
+    // Check if any required fields are empty
+    if (!data["from-name"] || !data["from-email"] || !data["message"]) {
+      setResult({
+        success: false,
+        message: "Please fill out all required fields.",
+      });
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -30,14 +41,22 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setResult({
+            success: true,
+            message:
+              "Your Message has been successfully sent. I will contact you soon.",
+          });
         },
         (error) => {
-          console.log(error.text);
+          setResult({
+            success: false,
+            message:
+              "There was an error with your submission. Please check your input.",
+          });
         }
       );
+
     e.target.reset();
-    showResult(true);
   };
   return (
     <Layout title={"Culture Concept/Contact"}>
@@ -49,7 +68,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12 ">
               <div className="abt-heading">Contact Us</div>
-              <div className="Paragraph">
+              <div className="Paragraph1">
                 Any questions or suggestions? Write us a message and we will
                 contact you!
               </div>
@@ -142,14 +161,16 @@ const Contact = () => {
                   <div className="contact-btn">
                     <input type="submit" value="Send" className="btn2" />
                   </div>
-                  <div className="row">{result ? <Result /> : null}</div>
+                  <div className="row">
+                    <Result success={result.success} message={result.message} />
+                  </div>
                 </form>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <hr />
+      {/* <hr /> */}
     </Layout>
   );
 };

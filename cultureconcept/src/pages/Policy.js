@@ -22,7 +22,7 @@ const Policy = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
               >
-                Privacy Policy
+                TERMS & CONDITIONS
               </div>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
@@ -137,6 +137,7 @@ const Policy = () => {
                 <p className="Heading">UPDATE</p>
                 Should we update, amend or make any changes to this document,
                 those changes will be prominently posted here.
+                <hr />
                 <p className="Policy-Headingmain">PRIVACY POLICY</p>
                 This Privacy Policy document contains types of information that
                 is collected and recorded by Culture Concept and how we use it.
@@ -208,6 +209,7 @@ const Policy = () => {
           </div>
         </div>
       </section>
+      <hr />
     </Layout>
   );
 };

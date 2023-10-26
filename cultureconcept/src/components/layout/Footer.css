@@ -25,15 +25,15 @@ align-items: center;
 align-content: center;
 margin:0 0.4rem;
 color:#7A7A7A;
-font-size: 0.8rem;
+font-size: 0.9rem;
 }
 .social-icons a:hover{
-    color:#0B2E33;
+    color:#EB595F;
 }
  .registration{
     padding: 0.5rem 0rem;
-    font-size: 0.7rem;
-    line-height: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     letter-spacing: 0.3px;  
     font-weight: 600;
 }
@@ -49,14 +49,13 @@ font-size: 0.8rem;
     color:#7A7A7A;
 }
 span{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-right: 0.3rem;
     text-align: center;
-
 }
 .Footer-phone{
     padding-top: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1rem;
     letter-spacing: 0.5px;
     color:#7A7A7A;
@@ -73,11 +72,11 @@ span{
     list-style-type: none;
     text-decoration: none;
     color:#7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
        }
        .footer a:hover{
-        color:#0B2E33 ;
+        color:#EB595F;
        }
        .ft-6 .nav-links{
          padding-top: 1.5rem;

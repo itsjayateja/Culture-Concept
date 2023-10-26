@@ -17,39 +17,43 @@
     text-align: center;
 }
 .Contacts{
-    background-color: #D0D0D0;
-    padding: 2rem 0;
+    background-color: #d9d9d9;
+    padding-top: 2rem;
     justify-content:start;
+    border: 2px solid #d0d0d0;
    
 }
 .contact-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #7A7A7A;
 }
 .cnticons{
     color:#EB595F;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .imgname{
     padding-left: 0.6rem;
     color:#EB595F;
-    font-size:0.8rem;
+    font-size:0.9rem;
     font-weight: 600;
 }
 .textimage1{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#7A7A7A;
     padding-top: 0.4rem;
 }
 .contact-heading{
     color:#EB595F;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    padding-bottom: 1rem;
 }
 .form-control{
     color:#a6a6a6;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0.5rem 1rem;
+    background-color: #DEDEDE;
+    border: 1px solid #b0b0b0;
 }
 .btn2{
     color:#EB595F;
@@ -57,14 +61,21 @@
     border-radius: 10rem;
     padding: 0.4rem 2.5rem;
     font-size: 0.8rem;
+    background-color: #DEDEDE;
 }
 .btn2:hover{
     color:#fff;
     background-color: #EB595F;
 }
 .confirm{
-    color:#EB595F;
+    color:#4CAF50;
     font-size: 0.8rem;
     padding: 1rem 0rem;
     font-weight: 600;
 }
+  .error {
+    color:#EB595F;
+    font-size: 0.8rem;
+    padding: 1rem 0rem;
+    font-weight: 600;
+  }

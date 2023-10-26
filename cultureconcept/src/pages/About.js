@@ -21,14 +21,18 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 about">
-              <img className="abt-image" src={Aboutimg} alt="About-image" />
+              <img
+                className="abt-image w-100"
+                src={Aboutimg}
+                alt="About-image"
+              />
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12 ">
               <h1 className="abt-heading">About CultureConcept</h1>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12  History">
               <p className="para-heading">History of our creation:</p>
-              <p className="Paragraph">
+              <p className="Paragraph1">
                 Since our humble beginnings in 2019, We has significantly
                 expanded its our collection of exclusive lamps. Today we are
                 proud to present you our best lighting design solutions. Sit
@@ -96,17 +100,17 @@ const About = () => {
                 <p className="para-heading">
                   Designer services are no longer a luxury:
                 </p>
-                <p className="Paragraph">
+                <p className="Paragraph1">
                   1. In our present time, we firmly believe that engaging the
                   services of architects and designers is a deliberate choice
                   rather than a luxury.
                 </p>
-                <p className="Paragraph">
+                <p className="Paragraph1">
                   2. Our firm belief is that employing the services of
                   architects and designers is a deliberate choice rather than a
                   luxury in today's day and age.
                 </p>
-                <p className="Paragraph">
+                <p className="Paragraph1">
                   3. We are sincerely convinced that using the services of
                   architects and designers in our time is not a luxury, but a
                   conscious

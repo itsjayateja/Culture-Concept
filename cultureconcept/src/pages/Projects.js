@@ -18,7 +18,7 @@ const Projects = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12 ">
               <h1 className="Service-heading">XCLUSIVE INTERIORS PORTFOLIO</h1>
-              <p className="Paragraph">
+              <p className="Paragraph1">
                 1. In our present time, we firmly believe that engaging the
                 services of architects and designers is a deliberate choice
                 rather than a luxury.

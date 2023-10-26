@@ -17,6 +17,16 @@
     font-size: 2rem;
     text-align: center;
 }
+.policy-mid{
+    text-align: center;
+}
+.policy-box{
+    padding: 1rem;
+    border: 1px solid #7a7a7a;
+    border-radius: 0.2rem;
+    margin-right: 0.5rem;
+    width: 16rem;
+}
 .Service-heading2{
 color: #0B2E33;
 font-size: 1rem;
@@ -24,15 +34,15 @@ font-weight: 400;
 text-align: center;
 }
 .Services-Strip{
-    padding: 2rem 0;
+padding: 2rem 0;
 }
 .s-small{
-    color: #7a7a7a;
+color: #7a7a7a;
 font-size: 0.8rem;
 font-weight: 400;
 text-align: center;
 padding-top: 0.5rem;
 }
 .Services-points{
-    padding: 2rem 0;
+padding: 2rem 0;
 }

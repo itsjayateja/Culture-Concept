@@ -81,10 +81,12 @@ a{
 .client-side{
     color: #7a7a7a;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 .side-color{
     color: #0B2E33;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 .client-sideparagraph{
     padding-top: 1rem;
@@ -99,9 +101,6 @@ a{
     filter: grayscale(0%);
 cursor: pointer;
 }
-/* .client-logo:hover{
-    filter: grayscale(0%);
-} */
 .clients-logo
 {
     padding-top: 2rem;
@@ -231,14 +230,6 @@ hr{
     background-image: linear-gradient(to bottom,#DEDEDE 0%, #DEDEDE 50%, 
     #D0D0D0 30%, #D0D0D0 100%)
 }
-
-/* .Slide-image{
-    transition: tranform .75s;
-}
-.Slide-image{
-    cursor: pointer;
-    transform: scale(1.15);
-} */
 .Slide-image{
 filter: grayscale(100%);
 transition: tranform 5s;
@@ -265,9 +256,6 @@ transform: scale(1.15);
     filter: grayscale(0%);
 
 }
-/* .Slide-image2:hover{
-    filter: grayscale(0%);
-} */
 .whatsapp-logo{
     width: 10rem;
     position: fixed;
