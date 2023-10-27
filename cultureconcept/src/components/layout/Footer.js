@@ -3,7 +3,7 @@ import {
   FaInstagramSquare,
   FaFacebookF,
   FaTwitter,
-  FaTelegramPlane,
+  FaLinkedinIn,
   FaLink,
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -27,31 +27,42 @@ const Footer = () => {
             </p>
 
             <div className="social-icons">
-              <a href="/">
+              <a
+                href="https://instagram.com/cultureconcept.in?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
                 <FaInstagramSquare />
               </a>
-              <a href="/">
+              <a
+                href="https://instagram.com/cultureconcept.in?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
                 <FaFacebookF />
               </a>
-              <a href="/">
+              <a href="https://x.com/cultconintsol?s=11" target="_blank">
                 <FaTwitter />
               </a>
-              <a href="/">
-                <FaTelegramPlane />
+              <a
+                href="https://www.linkedin.com/company/culture-concept-interior-solutions/"
+                target="_blank"
+              >
+                <FaLinkedinIn />
               </a>
             </div>
             <div className="registration">
-              copy rights all reserved @cultureconcept.in
+              Copy Rights all reserved @cultureconcept.in
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 ft-3">
             <div className="address">
               <h5>
-                <span>
-                  <FaLocationDot />
-                </span>
-                Address
+                <a href="/">
+                  <span>
+                    <FaLocationDot />
+                  </span>
+                  Address
+                </a>
               </h5>
             </div>
             <div className="address-text">
@@ -59,6 +70,7 @@ const Footer = () => {
               <br /> Road No-38, Ayappa Socity, Madhapur, <br />
               Hyderabad-500081.
             </div>
+
             <div className="Footer-phone">+91 9966741412</div>
             <div className="registration">hello@cultureconcept.in</div>
           </div>

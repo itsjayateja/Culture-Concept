@@ -27,7 +27,7 @@ a{
     border: 0.1rem solid #EB595F;
     border-radius: 10rem;
     padding: 0.3rem 1.2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .filled:hover{
     color:#fff;
@@ -40,11 +40,11 @@ a{
 .btn{
     color:#EB595F;
     padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .text-hero-regular{
     color:#7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-top: 1rem;
 }
 .hero-image2{
@@ -60,7 +60,7 @@ a{
 
 .year{
     color: #7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: right;
     padding-top: 2rem;
 }
@@ -91,7 +91,7 @@ a{
 .client-sideparagraph{
     padding-top: 1rem;
     color: #7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .client-logo{
     align-items: center;
@@ -120,7 +120,7 @@ cursor: pointer;
 .project-text{
     padding-top:8rem;
     color:#0B2E33;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     text-align: start;
 }
@@ -147,7 +147,7 @@ cursor: pointer;
     font-weight: 600;
 }
 .number-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#7a7a7a;
     font-weight: 400;
 }
@@ -157,7 +157,7 @@ cursor: pointer;
 }
 /* video */
 .video-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#7a7a7a;
     font-weight: 500;
     padding: 6rem 0;
@@ -170,11 +170,11 @@ cursor: pointer;
 }
 /* textimonial */
 
-.client-paragraph{
+.client-paragraph1{
     color:#7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
-
+    padding-top: 1rem;
 }
 .client-say{
     text-align: left;
@@ -195,7 +195,7 @@ cursor: pointer;
 }
 .Test-para2{
     color:#7a7a7a;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: start;
 }
 .Stars2{
@@ -206,7 +206,7 @@ cursor: pointer;
 }
 /* Slide */
 .Slide-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#7a7a7a;
     font-weight: 500;
     text-align: left;
@@ -216,7 +216,7 @@ cursor: pointer;
     color:#0B2E33;
 }
 .Slide2-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#7a7a7a;
     font-weight: 500;
     text-align: right;
@@ -256,14 +256,35 @@ transform: scale(1.15);
     filter: grayscale(0%);
 
 }
-.whatsapp-logo{
-    width: 10rem;
+.wrapper {
     position: fixed;
     bottom: 2rem;
-    right: 0.2rem;
+    right: 1.5rem;
     z-index: 99;
-   
-}
+    /* overflow: hidden; */
+  }
+  
+  .wrapper .whatsapp-logo {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    border: 1px solid #7a7a7a;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: transform 0.5s ease,
+  }
+  
+  .wrapper .whatsapp-logo:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+  }
+/* .whatsapp-logo{
+    width: 4.5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 1.5rem;
+    z-index: 99;
+} */
   
 @media(max-width:576px){
     body{

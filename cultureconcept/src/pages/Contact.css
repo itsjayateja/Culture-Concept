@@ -26,6 +26,7 @@
 .contact-text{
     font-size: 0.9rem;
     color: #7A7A7A;
+    line-height: 1.5rem;
 }
 .cnticons{
     color:#EB595F;
@@ -41,6 +42,7 @@
     font-size: 0.9rem;
     color:#7A7A7A;
     padding-top: 0.4rem;
+    line-height: 1.5rem;
 }
 .contact-heading{
     color:#EB595F;

@@ -110,7 +110,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="Whatsapp">
+        <div className="wrapper">
           <a href="https://wa.me/9010611618" target="_blank">
             <img src={Whatsapp} alt="whatsapp-logo" className="whatsapp-logo" />
           </a>
@@ -292,201 +292,201 @@ const Homepage = () => {
               className="col-lg-12 col-md-12 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <h1 className="abt-heading">What Our Client Says</h1>
-              <p className="client-paragraph">
-                We're immensely proud of the work we've done for our clients.
-                Here's what some have said.
-              </p>
+              <h1 className="abt-heading">
+                What Our Client Says
+                <p className="client-paragraph1">
+                  We're immensely proud of the work we've done for our clients.
+                  Here's what some have said.
+                </p>
+              </h1>
             </div>
             <div
               className="col-lg-12 col-md-12 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <div>
-                <Slider {...settings}>
-                  <div>
-                    <div className="container">
-                      <div className="row">
+              <Slider {...settings}>
+                <div>
+                  <div className="container">
+                    <div className="row">
+                      <div
+                        className="col-lg-6 col-md-6 col-sm-12"
+                        data-aos="zoom-in-right"
+                      >
+                        <img
+                          src={client1}
+                          className="project-img w-100"
+                          alt="project image"
+                        />
+                      </div>
+                      <div
+                        className="col-lg-6 col-md-6 col-sm-12 client-say"
+                        data-aos="zoom-in-right"
+                      >
                         <div
-                          className="col-lg-6 col-md-6 col-sm-12"
-                          data-aos="zoom-in-right"
+                          className="Test-p2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
                         >
-                          <img
-                            src={client1}
-                            className="project-img w-100"
-                            alt="project image"
-                          />
+                          Jaya teja Bathula
                         </div>
                         <div
-                          className="col-lg-6 col-md-6 col-sm-12 client-say"
-                          data-aos="zoom-in-right"
+                          className="Test-designation2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
                         >
-                          <div
-                            className="Test-p2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            Jaya teja Bathula
-                          </div>
-                          <div
-                            className="Test-designation2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            Software Engg
-                          </div>
-                          <div
-                            className="Test-para2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            The interior design service exceeded my expectations
-                            with their attention to detail and creativity. They
-                            transformed my outdated living room into a modern
-                            and <br />
-                            functional space.
-                          </div>
-                          <div
-                            className="Stars2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                          </div>
+                          Software Engg
+                        </div>
+                        <div
+                          className="Test-para2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          The interior design service exceeded my expectations
+                          with their attention to detail and creativity. They
+                          transformed my outdated living room into a modern and{" "}
+                          <br />
+                          functional space.
+                        </div>
+                        <div
+                          className="Stars2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <div className="container">
-                      <div className="row">
+                </div>
+                <div>
+                  <div className="container">
+                    <div className="row">
+                      <div
+                        className="col-lg-6 col-md-6 col-sm-12"
+                        data-aos="zoom-in-right"
+                      >
+                        <img
+                          src={client2}
+                          className="project-img w-100"
+                          alt="project image"
+                        />
+                      </div>
+                      <div
+                        className="col-lg-6 col-md-6 col-sm-12 client-say"
+                        data-aos="zoom-in-right"
+                      >
                         <div
-                          className="col-lg-6 col-md-6 col-sm-12"
-                          data-aos="zoom-in-right"
+                          className="Test-p2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
                         >
-                          <img
-                            src={client2}
-                            className="project-img w-100"
-                            alt="project image"
-                          />
+                          Hemanth P
                         </div>
                         <div
-                          className="col-lg-6 col-md-6 col-sm-12 client-say"
-                          data-aos="zoom-in-right"
+                          className="Test-designation2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
                         >
-                          <div
-                            className="Test-p2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            Hemanth P
-                          </div>
-                          <div
-                            className="Test-designation2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            Student
-                          </div>
-                          <div
-                            className="Test-para2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            I highly recommend this interior design service for
-                            anyone looking to elevate their home's aesthetic.
-                            The team was professional, communicative, and
-                            delivered a stunning final product.
-                          </div>
-                          <div
-                            className="Stars2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                          </div>
+                          Student
+                        </div>
+                        <div
+                          className="Test-para2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          I highly recommend this interior design service for
+                          anyone looking to elevate their home's aesthetic. The
+                          team was professional, communicative, and delivered a
+                          stunning final product.
+                        </div>
+                        <div
+                          className="Stars2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <div className="container">
-                      <div className="row">
+                </div>
+                <div>
+                  <div className="container">
+                    <div className="row">
+                      <div
+                        className="col-lg-6 col-md-6 col-sm-12"
+                        data-aos="zoom-in-right"
+                      >
+                        <img
+                          src={client3}
+                          className="project-img w-100"
+                          alt="project image"
+                        />
+                      </div>
+                      <div
+                        className="col-lg-6 col-md-6 col-sm-12 client-say"
+                        data-aos="zoom-in-right"
+                      >
                         <div
-                          className="col-lg-6 col-md-6 col-sm-12"
-                          data-aos="zoom-in-right"
+                          className="Test-p2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
                         >
-                          <img
-                            src={client3}
-                            className="project-img w-100"
-                            alt="project image"
-                          />
+                          Pavan Kumar A
                         </div>
                         <div
-                          className="col-lg-6 col-md-6 col-sm-12 client-say"
-                          data-aos="zoom-in-right"
+                          className="Test-designation2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
                         >
-                          <div
-                            className="Test-p2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            Pavan Kumar A
-                          </div>
-                          <div
-                            className="Test-designation2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            Business
-                          </div>
-                          <div
-                            className="Test-para2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            I was thoroughly impressed with this builder's
-                            ability to turn our dream home into a reality. They
-                            paid close attention to every detail and delivered a
-                            final product that exceeded our expectations.
-                          </div>
-                          <div
-                            className="Stars2"
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="1000"
-                          >
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                            <TbStarFilled />
-                          </div>
+                          Business
+                        </div>
+                        <div
+                          className="Test-para2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          I was thoroughly impressed with this builder's ability
+                          to turn our dream home into a reality. They paid close
+                          attention to every detail and delivered a final
+                          product that exceeded our expectations.
+                        </div>
+                        <div
+                          className="Stars2"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
                         </div>
                       </div>
                     </div>
                   </div>
-                </Slider>
-              </div>
+                </div>
+              </Slider>
             </div>
           </div>
         </div>
