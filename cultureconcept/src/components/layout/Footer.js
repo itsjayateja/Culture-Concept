@@ -34,7 +34,7 @@ const Footer = () => {
                 <FaInstagramSquare />
               </a>
               <a
-                href="https://instagram.com/cultureconcept.in?igshid=MzRlODBiNWFlZA=="
+                href="https://www.facebook.com/cultureconceptinterio?mibextid=LQQJ4d"
                 target="_blank"
               >
                 <FaFacebookF />
