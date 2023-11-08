@@ -111,7 +111,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="wrapper">
-          <a href="https://wa.me/9010611618" target="_blank">
+          <a href="https://wa.me/9966741412" target="_blank">
             <img src={Whatsapp} alt="whatsapp-logo" className="whatsapp-logo" />
           </a>
         </div>
