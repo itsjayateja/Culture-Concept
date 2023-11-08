@@ -58,7 +58,7 @@ const Homepage = () => {
                   your space
                 </div>
                 <div className="header-button">
-                  <a href="header" className="btn btn-outline filled">
+                  <a href="/letstalk" className="btn btn-outline filled">
                     Start Project
                     <span className="arrow">
                       <BsArrowRight />
