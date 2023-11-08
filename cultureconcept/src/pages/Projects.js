@@ -65,7 +65,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Mr.Jaya Teja</div>
+                <div className="Service-name1">Mr.Subhani</div>
               </div>
             </div>
             <div
@@ -78,7 +78,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Mr.Jaya Teja</div>
+                <div className="Service-name1">Mr.Vamshi</div>
               </div>
             </div>
             <div
@@ -91,7 +91,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Mr.Jaya Teja</div>
+                <div className="Service-name1">Mr.Surya</div>
               </div>
             </div>
             <div
@@ -104,7 +104,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Mr.Jaya Teja</div>
+                <div className="Service-name1">Mr.Mahesh</div>
               </div>
             </div>
             <div
@@ -117,7 +117,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Mr.Jaya Teja</div>
+                <div className="Service-name1">Mr.Shyam</div>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Sixpep</div>
+                <div className="Service-name1">yrall</div>
               </div>
             </div>
             <div
@@ -171,7 +171,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Sixpep</div>
+                <div className="Service-name1">Prasad Fashions</div>
               </div>
             </div>
             <div
@@ -184,7 +184,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">Sixpep</div>
+                <div className="Service-name1">Decooders</div>
               </div>
             </div>
           </div>

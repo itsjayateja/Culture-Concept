@@ -526,44 +526,52 @@ const Homepage = () => {
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-3 col-md-6 col-sm-12 card"
+                className="col-lg-3 col-md-6 col-sm-12"
                 data-aos="zoom-in-right"
               >
+                {/* <div className="wrapper"> */}
                 <img
                   src={Slide1}
                   className="Slide-image w-100"
                   alt="Projects"
                 />
+                {/* </div> */}
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12 card"
+                className="col-lg-3 col-md-6 col-sm-12"
                 data-aos="zoom-in-right"
               >
+                {/* <div className="wrapper"> */}
                 <img
                   src={Slide2}
                   className="Slide-image w-100"
                   alt="Projects"
                 />
+                {/* </div> */}
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12 card"
+                className="col-lg-3 col-md-6 col-sm-12"
                 data-aos="zoom-in-right"
               >
+                {/* <div className="wrapper"> */}
                 <img
                   src={Slide3}
                   className="Slide-image w-100"
                   alt="Projects"
                 />
+                {/* </div> */}
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12 card"
+                className="col-lg-3 col-md-6 col-sm-12"
                 data-aos="zoom-in-right"
               >
+                {/* <div className="wrapper"> */}
                 <img
                   src={Slide4}
                   className="Slide-image w-100"
                   alt="Projects"
                 />
+                {/* </div> */}
               </div>
             </div>
           </div>
