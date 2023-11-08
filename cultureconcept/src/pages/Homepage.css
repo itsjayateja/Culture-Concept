@@ -294,7 +294,7 @@ transform: scale(1.15);
   
 @media(max-width:576px){
     body{
-        width: 111vw;
+        width: 100vw;
         overflow-x: hidden;
     }
  

@@ -1,9 +1,11 @@
 .about{
-    width:95vw;
+    width:98vw;
 }
-.abt-image{
+.about .abt-image{
     width:100%;
-    
+text-align: center;
+justify-content: center;
+align-items: center;
 }
 .abt-heading{
     text-align: center;
