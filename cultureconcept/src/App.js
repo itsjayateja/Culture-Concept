@@ -6,6 +6,7 @@ import Projects from "./pages/Projects.js";
 import Contact from "./pages/Contact.js";
 import Services from "./pages/Services";
 import Policy from "./pages/Policy.js";
+import Letstalk from "../src/pages/Letstalk.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/policy" element={<Policy />} />
       <Route path="*" element={<Pagenotfound />} />
+      <Route path="/letstalk" element={<Letstalk />} />
     </Routes>
   );
 }

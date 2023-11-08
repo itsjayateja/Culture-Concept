@@ -17,15 +17,20 @@
     font-size: 2rem;
     text-align: center;
 }
-.policy-mid{
+/* .policy-mid{
     text-align: center;
-}
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
 .policy-box{
     padding: 1rem;
     border: 1px solid #7a7a7a;
     border-radius: 0.2rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     width: 16rem;
+    gap: 1rem;
+   
 }
 .Service-heading2{
 color: #0B2E33;

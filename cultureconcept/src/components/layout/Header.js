@@ -53,11 +53,11 @@ const Header = () => {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 nav-btn">
-              <a href="https://wa.me/9010611618" target="_blank">
+              <NavLink to="/letstalk">
                 <button type="button" className="btn talk">
                   Let's Talk
                 </button>
-              </a>
+              </NavLink>
             </ul>
           </div>
         </div>

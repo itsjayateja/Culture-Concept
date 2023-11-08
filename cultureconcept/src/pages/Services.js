@@ -87,28 +87,32 @@ const Services = () => {
               className="col-lg-3 col-md-6 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <img src={Slide1} className="Slide-image  w-100" alt="Projects" />
+              <img
+                src={Slide1}
+                className="Slide-image3  w-100"
+                alt="Projects"
+              />
               <div className="Service-name">Full Home Interior</div>
             </div>
             <div
               className="col-lg-3 col-md-6 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <img src={Slide2} className="Slide-image w-100" alt="Projects" />
+              <img src={Slide2} className="Slide-image3 w-100" alt="Projects" />
               <div className="Service-name">Modular Kitchen</div>
             </div>
             <div
               className="col-lg-3 col-md-6 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <img src={Slide3} className="Slide-image w-100" alt="Projects" />
+              <img src={Slide3} className="Slide-image3 w-100" alt="Projects" />
               <div className="Service-name">Modular Furniture</div>
             </div>
             <div
               className="col-lg-3 col-md-6 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <img src={Slide4} className="Slide-image w-100" alt="Projects" />
+              <img src={Slide4} className="Slide-image3 w-100" alt="Projects" />
               <div className="Service-name"> Furniture & Decor</div>
             </div>
           </div>
@@ -203,13 +207,14 @@ const Services = () => {
             <div className="col-lg-12 col-md-12 col-sm-12">
               <p className="Policy-Headingmain">Reasons to choose us </p>
             </div>
-            <div className="policy-mid">
-              <div
-                className="col-lg-3 col-md-6 col-sm-4 policy-box"
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1000"
-              >
+
+            <div
+              className="col-lg-3 col-md-6 col-sm-4"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
+              <div className="card">
                 <p className="Heading">Broad Appeal:</p>
                 <p className="s-small">
                   "Culture Concept" is a name that suggests a broad and
@@ -219,49 +224,50 @@ const Services = () => {
                   clientele.
                 </p>
               </div>
-              <div
-                className="col-lg-3 col-md-6 col-sm-4 policy-box"
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1000"
-              >
-                <p className="Heading">Unique and Memorable:</p>
-                <p className="s-small">
-                  The name is distinct and memorable, which can help your
-                  company stand out in a crowded market. It's not a generic or
-                  overused name for an interior design company, which can help
-                  you create a unique brand identity.
-                </p>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 col-sm-4 policy-box"
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1000"
-              >
-                <p className="Heading">Flexibility:</p>
-                <p className="s-small">
-                  "Culture Concept" can be interpreted in various ways, allowing
-                  you to adapt your design services to different client needs.
-                  It can encompass contemporary, traditional, or fusion designs,
-                  giving you flexibility in your design projects.
-                </p>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 col-sm-4 policy-box"
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1000"
-              >
-                <p className="Heading">Storytelling:</p>
-                <p className="s-small">
-                  The name "Culture Concept" invites storytelling. You can share
-                  the story of how your design inspirations are drawn from
-                  different cultures, creating a sense of depth and authenticity
-                  in your brand.
-                </p>
-              </div>
             </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 policy-box"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
+              <p className="Heading">Unique and Memorable:</p>
+              <p className="s-small">
+                The name is distinct and memorable, which can help your company
+                stand out in a crowded market. It's not a generic or overused
+                name for an interior design company, which can help you create a
+                unique brand identity.
+              </p>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 policy-box"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
+              <p className="Heading">Flexibility:</p>
+              <p className="s-small">
+                "Culture Concept" can be interpreted in various ways, allowing
+                you to adapt your design services to different client needs. It
+                can encompass contemporary, traditional, or fusion designs,
+                giving you flexibility in your design projects.
+              </p>
+            </div>
+            <div
+              className="col-lg-3 col-md-6 col-sm-4 policy-box"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
+              <p className="Heading">Storytelling:</p>
+              <p className="s-small">
+                The name "Culture Concept" invites storytelling. You can share
+                the story of how your design inspirations are drawn from
+                different cultures, creating a sense of depth and authenticity
+                in your brand.
+              </p>
+            </div>
+            {/* </div> */}
           </div>
           {/* <p className="Heading"> </p>
                 <p className="Heading">Global Appeal: </p>If you plan to work
