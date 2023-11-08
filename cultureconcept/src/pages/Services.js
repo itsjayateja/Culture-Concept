@@ -35,7 +35,7 @@ const Services = () => {
               data-aos-duration="1000"
             >
               <div className="content-1">
-                <div className="Long-heading">315</div>
+                <div className="Long-heading">600+</div>
                 <p className="c-small">Happy customers</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Services = () => {
               data-aos-duration="1000"
             >
               <div className="content-1">
-                <div className="Long-heading">17</div>
+                <div className="Long-heading">8</div>
                 <p className="c-small">Years experience</p>
               </div>
             </div>
@@ -226,46 +226,52 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 col-sm-4 policy-box"
+              className="col-lg-3 col-md-6 col-sm-4 "
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <p className="Heading">Unique and Memorable:</p>
-              <p className="s-small">
-                The name is distinct and memorable, which can help your company
-                stand out in a crowded market. It's not a generic or overused
-                name for an interior design company, which can help you create a
-                unique brand identity.
-              </p>
+              <div className="card">
+                <p className="Heading">Unique and Memorable:</p>
+                <p className="s-small">
+                  The name is distinct and memorable, which can help your
+                  company stand out in a crowded market. It's not a generic or
+                  overused name for an interior design company, which can help
+                  you create a unique brand identity.
+                </p>
+              </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 col-sm-4 policy-box"
+              className="col-lg-3 col-md-6 col-sm-4"
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <p className="Heading">Flexibility:</p>
-              <p className="s-small">
-                "Culture Concept" can be interpreted in various ways, allowing
-                you to adapt your design services to different client needs. It
-                can encompass contemporary, traditional, or fusion designs,
-                giving you flexibility in your design projects.
-              </p>
+              <div className="card">
+                <p className="Heading">Flexibility:</p>
+                <p className="s-small">
+                  "Culture Concept" can be interpreted in various ways, allowing
+                  you to adapt your design services to different client needs.
+                  It can encompass contemporary, traditional, or fusion designs,
+                  giving you flexibility in your design projects.
+                </p>
+              </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 col-sm-4 policy-box"
+              className="col-lg-3 col-md-6 col-sm-4 "
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <p className="Heading">Storytelling:</p>
-              <p className="s-small">
-                The name "Culture Concept" invites storytelling. You can share
-                the story of how your design inspirations are drawn from
-                different cultures, creating a sense of depth and authenticity
-                in your brand.
-              </p>
+              <div className="card">
+                <p className="Heading">Storytelling:</p>
+                <p className="s-small">
+                  The name "Culture Concept" invites storytelling. You can share
+                  the story of how your design inspirations are drawn from
+                  different cultures, creating a sense of depth and authenticity
+                  in your brand.
+                </p>
+              </div>
             </div>
             {/* </div> */}
           </div>

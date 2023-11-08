@@ -33,7 +33,7 @@ const About = () => {
             <div className="col-lg-12 col-md-12 col-sm-12  History">
               <p className="para-heading">History of our creation:</p>
               <p className="Paragraph1">
-                Since our humble beginnings in 2019, We has significantly
+                Since our humble beginnings in 2015, We has significantly
                 expanded its our collection of exclusive lamps. Today we are
                 proud to present you our best lighting design solutions. Sit
                 amet just consectetur adipiscing elit.
@@ -64,7 +64,7 @@ const About = () => {
                 data-aos-duration="1000"
               >
                 <div className="content-1">
-                  <div className="Long-heading">315</div>
+                  <div className="Long-heading">600+</div>
                   <p className="c-small">Happy customers</p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const About = () => {
                 data-aos-duration="1000"
               >
                 <div className="content-1">
-                  <div className="Long-heading">17</div>
+                  <div className="Long-heading">8</div>
                   <p className="c-small">Years experience</p>
                 </div>
               </div>
