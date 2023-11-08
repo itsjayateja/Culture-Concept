@@ -68,9 +68,10 @@ const Footer = () => {
                 </h5>
               </div>
               <div className="address-text">
-                Plot no: 727, Flat no: 401, Annamayya Recidency,
-                <br /> Road No-38, Ayappa Socity, Madhapur, <br />
-                Hyderabad-500081.
+                Culture Concept, 3rd floor, Plot no: 194, <br />
+                Survay Of India, Road No-38, Ayappa Socity,
+                <br />
+                Madhapur, Hyderabad-500081.
               </div>
             </a>
             <div className="Footer-phone">
