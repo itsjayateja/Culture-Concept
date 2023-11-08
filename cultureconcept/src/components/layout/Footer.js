@@ -57,7 +57,10 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 col-sm-6 ft-3">
             <div className="address">
               <h5>
-                <a href="/">
+                <a
+                  href="https://www.google.com/maps/place/Culture+Concept+Interior+Solutions/@17.5288886,78.35442,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb8d93c883c051:0xf654317d73b1e1a8!8m2!3d17.5288835!4d78.3569949!16s%2Fg%2F11j8wwny89?entry=ttu"
+                  target="_blank"
+                >
                   <span>
                     <FaLocationDot />
                   </span>
@@ -71,8 +74,19 @@ const Footer = () => {
               Hyderabad-500081.
             </div>
 
-            <div className="Footer-phone">+91 9966741412</div>
-            <div className="registration">hello@cultureconcept.in</div>
+            <div className="Footer-phone">
+              <a href="tel:9966741412" target="_blank">
+                +91 9966741412
+              </a>
+            </div>
+            <div className="registration">
+              <a
+                href="mailto:hello@cultureconcept.in?subject=Project Enquiry"
+                target="_blank"
+              >
+                hello@cultureconcept.in
+              </a>
+            </div>
           </div>
           <div className="col-lg-2 col-md-6 col-sm-6 ft-4">
             <div className="contact">
