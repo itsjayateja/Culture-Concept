@@ -503,7 +503,7 @@ const Homepage = () => {
             >
               <div className="Slide-text">
                 Decorate
-                <span className="slide-change">every inch of the house</span>
+                <span className="slide-change"> every inch of the house</span>
                 <br />
                 To make it feel homey
               </div>
@@ -526,7 +526,7 @@ const Homepage = () => {
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-3 col-md-6 col-sm-12"
+                className="col-lg-3 col-md-6 col-sm-12 card"
                 data-aos="zoom-in-right"
               >
                 <img
@@ -536,7 +536,7 @@ const Homepage = () => {
                 />
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12"
+                className="col-lg-3 col-md-6 col-sm-12 card"
                 data-aos="zoom-in-right"
               >
                 <img
@@ -546,7 +546,7 @@ const Homepage = () => {
                 />
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12"
+                className="col-lg-3 col-md-6 col-sm-12 card"
                 data-aos="zoom-in-right"
               >
                 <img
@@ -556,7 +556,7 @@ const Homepage = () => {
                 />
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12"
+                className="col-lg-3 col-md-6 col-sm-12 card"
                 data-aos="zoom-in-right"
               >
                 <img
