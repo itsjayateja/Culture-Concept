@@ -106,6 +106,7 @@ const Contact = () => {
               <div className="cnticons">
                 <FiMail />
                 <span className="imgname">Email Id</span>
+
                 <p className="textimage1">hello@cultureconcept.com</p>
               </div>
             </div>

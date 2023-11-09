@@ -274,11 +274,23 @@ const Homepage = () => {
               className="col-lg-8 col-md-6 col-sm-12"
               data-aos="zoom-in-right"
             >
-              <img
+              {/* <img
                 src={videoimg}
                 className="project-img w-100"
                 alt="project image"
-              />
+              /> */}
+              <iframe
+                width="680"
+                height="400"
+                src="https://www.youtube.com/embed/kWSHdixzMco?si=cjla6tgcsp1hcXwb"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              {/* <video autoPlay muted>
+                <source src="" type="video/mp4"/>
+              </video> */}
             </div>
           </div>
         </div>
