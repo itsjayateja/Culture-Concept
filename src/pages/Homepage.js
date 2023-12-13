@@ -271,17 +271,13 @@ const Homepage = () => {
               </div>
             </div>
             <div
-              className="col-lg-8 col-md-6 col-sm-12"
+              className="col-lg-8 col-md-12 col-sm-12 w-25 vid"
               data-aos="zoom-in-right"
             >
-              {/* <img
-                src={videoimg}
-                className="project-img w-100"
-                alt="project image"
-              /> */}
               <iframe
                 width="680"
                 height="400"
+                className="vid-1"
                 src="https://www.youtube.com/embed/kWSHdixzMco?si=cjla6tgcsp1hcXwb"
                 title="YouTube video player"
                 frameborder="0"

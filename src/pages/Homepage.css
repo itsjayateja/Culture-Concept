@@ -261,7 +261,6 @@ transform: scale(1.15);
 }
 .Slide-image2{
     filter: grayscale(0%);
-
 }
 .wrapper {
     position: fixed;
@@ -298,7 +297,15 @@ transform: scale(1.15);
         width: 100vw;
         overflow-x: hidden;
     }
- 
+   .vid{
+    padding-top: 1rem;
+   }
+   iframe.vid-1{
+    
+    justify-content: center;
+    align-items: center;
+   width:380px;
+   }
     .copy{
         padding: 3.2rem 0; 
     }
@@ -322,6 +329,7 @@ transform: scale(1.15);
     .arrow{
         font-size: 1rem;
         padding-left: 0.5rem;
+        display: none;
     }
     .btn{
         color:#EB595F;
