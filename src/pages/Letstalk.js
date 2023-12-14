@@ -74,16 +74,7 @@ const Pagenotfound = () => {
                 <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3 form-input">
                     <input
-                      type="text"
-                      className="form-control1"
-                      id="username"
-                      placeholder="Username"
-                      name="from-name"
-                    />
-                  </div>
-                  <div className="mb-3 form-input">
-                    <input
-                      type="phone"
+                      type="number"
                       placeholder="Phone Number"
                       className="form-control1"
                       id="exampleInputEmail1"
@@ -99,15 +90,7 @@ const Pagenotfound = () => {
                       name="from-email"
                     />
                   </div>
-                  <div className="mb-3 form-input">
-                    <input
-                      type="text"
-                      className="form-control1"
-                      id="username"
-                      placeholder="Subject"
-                      name="from-name"
-                    />
-                  </div>
+
                   <div className="mb-3 form-input form">
                     <textarea
                       type="text"

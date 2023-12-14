@@ -102,7 +102,7 @@ const Homepage = () => {
               className="col-lg-2 col-md-6 col-sm-12"
               data-aos="zoom-in-left"
             >
-              <div className="year">Interior Design Company Since 2015</div>
+              <div className="year"> Since 2015</div>
               <div className="scrollimg">
                 <CgScrollV />
                 <div className="scroll-text">SCROLL DOWN</div>
