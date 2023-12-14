@@ -270,14 +270,13 @@ transform: scale(1.15);
     bottom: 2rem;
     right: 1.5rem;
     z-index: 99;
-    /* overflow: hidden; */
+
   }
   
   .wrapper .whatsapp-logo {
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 1rem;
-  
     cursor: pointer;
     transition: transform 0.5s ease,
   }
