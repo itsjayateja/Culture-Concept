@@ -33,10 +33,7 @@ const About = () => {
             <div className="col-lg-12 col-md-12 col-sm-12  History">
               <p className="para-heading">History of our creation:</p>
               <p className="Paragraph1">
-                Since our humble beginnings in 2015, We has significantly
-                expanded its our collection of exclusive lamps. Today we are
-                proud to present you our best lighting design solutions. Sit
-                amet just consectetur adipiscing elit.
+              Established in 2015, Design Solutions is dedicated to pioneering design innovation. Despite our modest origins, our unwavering commitment to creative excellence defines our journey.
               </p>
             </div>
           </div>
@@ -64,7 +61,7 @@ const About = () => {
                 data-aos-duration="1000"
               >
                 <div className="content-1">
-                  <div className="Long-heading">600+</div>
+                  <div className="Long-heading">9,900+</div>
                   <p className="c-small">Happy customers</p>
                 </div>
               </div>
@@ -75,7 +72,7 @@ const About = () => {
                 data-aos-duration="1000"
               >
                 <div className="content-1">
-                  <div className="Long-heading">8</div>
+                  <div className="Long-heading">9</div>
                   <p className="c-small">Years experience</p>
                 </div>
               </div>
@@ -101,19 +98,13 @@ const About = () => {
                   Designer services are no longer a luxury:
                 </p>
                 <p className="Paragraph1">
-                  1. In our present time, we firmly believe that engaging the
-                  services of architects and designers is a deliberate choice
-                  rather than a luxury.
+                  1. Nowadays, we think it's a good idea to choose architects and designers on purpose, not just for luxury.
                 </p>
                 <p className="Paragraph1">
-                  2. Our firm belief is that employing the services of
-                  architects and designers is a deliberate choice rather than a
-                  luxury in today's day and age.
+                  2. Our core philosophy is rooted in the belief that reshaping your environment is an empowering choice, fostering a sense of evolution in contemporary designs
                 </p>
                 <p className="Paragraph1">
-                  3. We are sincerely convinced that using the services of
-                  architects and designers in our time is not a luxury, but a
-                  conscious
+                  3. We wholeheartedly affirm that making intentional adjustments to your space is not merely a trend but a powerful catalyst for meaningful transformation in the way we live.
                 </p>
               </div>
             </div>

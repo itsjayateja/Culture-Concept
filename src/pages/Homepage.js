@@ -53,9 +53,9 @@ const Homepage = () => {
             >
               <div className="copy">
                 <div className="text-bold">
-                  Transform
+                  Designs
                   <br />
-                  your space
+                  That Speaks Your Style
                 </div>
                 <div className="header-button">
                   <a href="/letstalk" className="btn btn-outline filled">
@@ -72,11 +72,11 @@ const Homepage = () => {
                   </a>
                 </div>
                 <div className="text-hero-regular">
-                  The mind creates the beautiful.
+                The mind crafts beauty.
                   <br />
-                  The heart creates the Home,
+                  The heart shapes a home,
                   <br />
-                  home sweet home
+                  sweet home.
                 </div>
                 <div className="Hero-images">
                   <div className="Wrap">
@@ -209,8 +209,7 @@ const Homepage = () => {
               <div className="project-text">
                 The Key difference between ordinary and special, <br />
                 <span className="p-change">
-                  No matter the season, our spaces are as nuanced as the
-                  lifestyles they reflect,
+                In every season, our spaces resonate with the nuances of the lifestyles they embody,
                   <br />
                 </span>
                 Don’t just dream it.
@@ -257,13 +256,13 @@ const Homepage = () => {
               data-aos="zoom-in-right"
             >
               <div className="video-text">
-                Capture the spirit Of
+              Bring the essence of spring into your
                 <br />
                 <span className="v-change">Spring</span> in your Home.
               </div>
               <div className="video-btn">
                 <a href="/projects" className="btn btn-outline filled">
-                  Projects
+                  Home.
                   <span className="arrow">
                     <BsArrowRight />
                   </span>

@@ -17,11 +17,9 @@ const Projects = () => {
               <img className="abt-image" src={Projectmain} alt="About-image" />
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12 ">
-              <h1 className="Service-heading">EXCLUSIVE INTERIORS PORTFOLIO</h1>
+              <h1 className="Service-heading">PORTFOLIO</h1>
               <p className="Paragraph1">
-                1. In our present time, we firmly believe that engaging the
-                services of architects and designers is a deliberate choice
-                rather than a luxury.
+              Dive into our Portfolio, where each design reflects a deliberate choice, transforming spaces into bespoke statements of luxury and style.
               </p>
             </div>
           </div>
@@ -158,7 +156,7 @@ const Projects = () => {
                   className="Slide-image w-100"
                   alt="Projects"
                 />
-                <div className="Service-name1">yrall</div>
+                <div className="Service-name1">Yrall</div>
               </div>
             </div>
             <div

@@ -50,8 +50,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="registration">
-              Copy Rights all reserved @cultureconcept.in
-            </div>
+              All rights reserved. Copyright © cultureconcept.in.            </div>
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 ft-3">
