@@ -35,7 +35,7 @@ const Services = () => {
               data-aos-duration="1000"
             >
               <div className="content-1">
-                <div className="Long-heading">990+</div>
+                <div className="Long-heading">9,900+</div>
                 <p className="c-small">Happy customers</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Services = () => {
               data-aos-duration="1000"
             >
               <div className="content-1">
-                <div className="Long-heading">8</div>
+                <div className="Long-heading">9</div>
                 <p className="c-small">Years experience</p>
               </div>
             </div>
