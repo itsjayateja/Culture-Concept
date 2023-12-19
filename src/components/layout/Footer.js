@@ -50,7 +50,8 @@ const Footer = () => {
               </a>
             </div>
             <div className="registration">
-              All rights reserved. Copyright © cultureconcept.in.            </div>
+              <a href="https://www.yrall.in/" target="_blank">Website developed by Yrall Media Solutions.   </a>
+                     </div>
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 ft-3">
