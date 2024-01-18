@@ -5,6 +5,7 @@ import "./Homepage.css";
 import Whatsapp from "../assets/Whatsapp.png";
 // import Heroimg from "../assets/Hero.png";
 import "../pages/About.css";
+import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import Img1 from "../assets/Hero-1.png";
 import Img2 from "../assets/Heo-1.png";
@@ -58,12 +59,12 @@ const Homepage = () => {
                   That Speaks Your Style
                 </div>
                 <div className="header-button">
-                  <a href="/letstalk" className="btn btn-outline filled">
+                  <Link to="/letstalk" className="btn btn-outline filled">
                     Start Project
                     <span className="arrow">
                       <BsArrowRight />
                     </span>
-                  </a>
+                  </Link>
                   <a href="/projects" className="btn btn-outline">
                     View More
                     <span className="arrow">
