@@ -4,13 +4,18 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../pages/Letstalk.css";
 import { IoClose } from "react-icons/io5";
-
+import {useFormik} from "formik"
+import * as Yup from 'yup';
+import axios from 'axios'
+import {toast} from 'react-hot-toast'
+import {Loader, Loader2} from "lucide-react"
 const Result = ({ success, message }) => {
   return <p className={success ? "confirm" : "error"}>{message}</p>;
 };
 
 const Pagenotfound = () => {
   const [result, setResult] = useState({ success: false, message: "" });
+  const [isLoading,setIsLoading]=useState(false)
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -56,6 +61,55 @@ const Pagenotfound = () => {
 
     e.target.reset();
   };
+  const validationSchema = Yup.object({
+    phoneNumber: Yup.string().required('Phone Number is Required'),
+    email: Yup.string().required('Email is Required'),
+    message: Yup.string().required('Message is Required'),
+
+});
+
+    const formik = useFormik({
+
+        initialValues: {
+            phoneNumber:'',
+            email:'',
+            message:''
+        },
+        validationSchema: validationSchema,
+        onSubmit: async(values) => {
+          setIsLoading(true)
+       
+          try {
+            console.log("here are values",values)
+            const response = await axios.post(
+              "https://script.google.com/macros/s/AKfycbyRxDUeJyFJXgUoc73TMEunlZfOnaer0yhnAXRUpV6AOsqTrmRWtGBahL1pjSbx7uDb/exec",
+              new URLSearchParams({...values}),
+              {
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded",
+                },
+              }
+            );
+            if(response.status===200){
+              console.log(response)
+              toast.success("Sent Successfully")
+            }
+            } catch (error) {
+             
+              toast.error("Something Went Wrong!")
+              console.log(error)
+                 
+            }finally{
+              setIsLoading(false)
+            }
+        },
+      });
+      // const  handleKeyPress = async(e) => {
+      //   console.log('called')
+      //   if (e.key === 'Enter') {
+      //     formik.submitForm()
+      //   }
+      // }
   return (
     <>
       <Link to="/" className="back">
@@ -71,41 +125,60 @@ const Pagenotfound = () => {
               <div className="Cantact-form">
                 <div className="contact-heading">Lets Talk</div>
 
-                <form ref={form} onSubmit={sendEmail}>
+                <div ref={form} >
                   <div className="mb-3 form-input">
                     <input
+                      onChange={(e)=>formik.setFieldValue("phoneNumber",e.target.value)}
                       type="number"
+                      value={formik.values.phoneNumber}
                       placeholder="Phone Number"
                       className="form-control1"
-                      id="exampleInputEmail1"
-                      name=""
+                      // id="exampleInputEmail1"
+                      // name=""
                     />
+                     {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
+                                    <div style={{color:'red'}} className=" text-red-600">{formik.errors.phoneNumber}</div>
+                                ) : null}
                   </div>
+                 
                   <div className="mb-3 form-input">
                     <input
+                     onChange={(e)=>formik.setFieldValue("email",e.target.value)}
                       type="email"
+                         value={formik.values.email}
                       placeholder="Email"
                       className="form-control1"
-                      id="exampleInputEmail1"
-                      name="from-email"
+                      // id="exampleInputEmail1"
+                      // name="from-email"
                     />
+                    {formik.touched.email && formik.errors.email ? (
+                                    <div style={{color:'red'}} className=" text-red-600">{formik.errors.email}</div>
+                                ) : null}
                   </div>
-
+                  
                   <div className="mb-3 form-input form">
                     <textarea
+                     onChange={(e)=>formik.setFieldValue("message",e.target.value)}
                       type="text"
-                      name="message"
+                         value={formik.values.message}
+                      // name="message"
                       className="form-control1"
                       placeholder="message"
                     />
+                          {formik.touched.message && formik.errors.message ? (
+                                    <div style={{color:'red'}} className=" text-red-600">{formik.errors.message}</div>
+                                ) : null}
                   </div>
+
                   <div className="contact-btn">
-                    <input type="submit" value="Send" className="btn2" />
+                    <button disabled={isLoading} className='btn2' onClick={(e)=> formik.submitForm()}>
+                     {isLoading && <Loader2 size={12} className="animate-spin" />} Send
+                    </button>
                   </div>
-                  <div className="row">
+                  {/* <div className="row">
                     <Result success={result.success} message={result.message} />
-                  </div>
-                </form>
+                  </div> */}
+                </div>
               </div>
             </div>
           </div>

@@ -8,12 +8,16 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
+    "axios": "^1.6.5",
     "firebase": "^10.5.0",
+    "formik": "^2.4.5",
+    "lucide-react": "^0.312.0",
     "primeflex": "^3.3.1",
     "primeicons": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
     "react-loader-spinner": "^5.4.5",
     "react-router": "^6.16.0",
@@ -22,7 +26,8 @@
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.8",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

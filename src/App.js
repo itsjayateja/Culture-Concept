@@ -7,10 +7,11 @@ import Contact from "./pages/Contact.js";
 import Services from "./pages/Services";
 import Policy from "./pages/Policy.js";
 import Letstalk from "../src/pages/Letstalk.js";
-
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
-    <Routes>
+    <>
+          <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
@@ -20,6 +21,8 @@ function App() {
       <Route path="*" element={<Pagenotfound />} />
       <Route path="/letstalk" element={<Letstalk />} />
     </Routes>
+    <Toaster  position='bottom-right' reverseOrder={false} />
+    </>
   );
 }
 
