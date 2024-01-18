@@ -65,12 +65,12 @@ const Homepage = () => {
                       <BsArrowRight />
                     </span>
                   </Link>
-                  <a href="/projects" className="btn btn-outline">
+                  <Link to="/projects" className="btn btn-outline">
                     View More
                     <span className="arrow">
                       <BsArrowRight />
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="text-hero-regular">
                 The mind crafts beauty.
@@ -112,9 +112,9 @@ const Homepage = () => {
           </div>
         </div>
         <div className="wrapper">
-          <a href="https://wa.me/9966741412" target="_blank">
+          <Link to="https://wa.me/9966741412" target="_blank">
             <img src={Whatsapp} alt="whatsapp-logo" className="whatsapp-logo" />
-          </a>
+          </Link>
         </div>
       </section>
       <hr />
@@ -236,12 +236,12 @@ const Homepage = () => {
                     </div>
                   </div>
                 </div>
-                <a href="/about" className="btn btn-outline filled">
+                <Link to="/about" className="btn btn-outline filled">
                   About Us
                   <span className="arrow">
                     <BsArrowRight />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -262,12 +262,12 @@ const Homepage = () => {
                 <span className="v-change">Spring</span> in your Home.
               </div>
               <div className="video-btn">
-                <a href="/projects" className="btn btn-outline filled">
+                <Link to="/projects" className="btn btn-outline filled">
                   Home.
                   <span className="arrow">
                     <BsArrowRight />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
             <div
