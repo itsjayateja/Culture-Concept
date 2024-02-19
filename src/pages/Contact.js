@@ -172,7 +172,7 @@ const Contact = () => {
                       onChange={(e)=>formik.setFieldValue("name",e.target.value)}
                       className="form-control"
                       id="username"
-                      placeholder="Username"
+                      placeholder="Name"
                       name="from-name"
                     />
                     {formik.touched.name && formik.errors.name ? (
