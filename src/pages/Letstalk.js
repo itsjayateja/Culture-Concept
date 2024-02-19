@@ -82,7 +82,7 @@ const Pagenotfound = () => {
           try {
             console.log("here are values",values)
             const response = await axios.post(
-              "https://script.google.com/macros/s/AKfycbyRxDUeJyFJXgUoc73TMEunlZfOnaer0yhnAXRUpV6AOsqTrmRWtGBahL1pjSbx7uDb/exec",
+              "https://script.google.com/macros/s/AKfycbxGFO_bc3L4tMe21ZArcD7mfeQFJ3U64yAi14pw0Dt0gwDD8Hhl8q9gUD3ohCiAO2w/exec",
               new URLSearchParams({...values}),
               {
                 headers: {
@@ -134,7 +134,7 @@ const Pagenotfound = () => {
                       placeholder="Phone Number"
                       className="form-control1"
                       // id="exampleInputEmail1"
-                      // name=""
+                      name="phoneNumber"
                     />
                      {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
                                     <div style={{color:'red'}} className=" text-red-600">{formik.errors.phoneNumber}</div>
@@ -149,7 +149,7 @@ const Pagenotfound = () => {
                       placeholder="Email"
                       className="form-control1"
                       // id="exampleInputEmail1"
-                      // name="from-email"
+                      name="email"
                     />
                     {formik.touched.email && formik.errors.email ? (
                                     <div style={{color:'red'}} className=" text-red-600">{formik.errors.email}</div>

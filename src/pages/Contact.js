@@ -87,7 +87,7 @@ const Contact = () => {
           try {
             console.log("here are values",values)
             const response = await axios.post(
-              "https://script.google.com/macros/s/AKfycbyRxDUeJyFJXgUoc73TMEunlZfOnaer0yhnAXRUpV6AOsqTrmRWtGBahL1pjSbx7uDb/exec",
+              "https://script.google.com/macros/s/AKfycbz3mWMi7qNs7OtyG6hYWPVv5vGwZ3jHwswA2jAw6Oz-tykODwu2rEJw8eiXX7LbgPw/exec",
               new URLSearchParams({...values}),
               {
                 headers: {
@@ -173,7 +173,7 @@ const Contact = () => {
                       className="form-control"
                       id="username"
                       placeholder="Name"
-                      name="from-name"
+                      name="name"
                     />
                     {formik.touched.name && formik.errors.name ? (
                                     <div style={{color:'red'}} className=" text-red-600">{formik.errors.name}</div>
@@ -186,7 +186,7 @@ const Contact = () => {
                       placeholder="Phone Number"
                       className="form-control"
                       id="exampleInputEmail1"
-                      name=""
+                      name="phoneNumber"
                     />
                     {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
                                     <div style={{color:'red'}} className=" text-red-600">{formik.errors.phoneNumber}</div>
@@ -199,7 +199,7 @@ const Contact = () => {
                       placeholder="Email"
                       className="form-control"
                       id="exampleInputEmail1"
-                      name="from-email"
+                      name="email"
                     />
                     {formik.touched.email && formik.errors.email ? (
                                     <div style={{color:'red'}} className=" text-red-600">{formik.errors.email}</div>
@@ -212,7 +212,7 @@ const Contact = () => {
                       className="form-control"
                       id="username"
                       placeholder="Subject"
-                      name="from-name"
+                      name="subject"
                     />
                     {formik.touched.subject && formik.errors.subject ? (
                                     <div style={{color:'red'}} className=" text-red-600">{formik.errors.subject}</div>
