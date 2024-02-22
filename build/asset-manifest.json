@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d2799a2.css",
+    "main.js": "/static/js/main.5676cb20.js",
+    "static/js/787.661f6067.chunk.js": "/static/js/787.661f6067.chunk.js",
+    "static/media/upcoming.png": "/static/media/upcoming.e0e0fdc37dee055729c5.png",
+    "static/media/Projectmain.png": "/static/media/Projectmain.b09d107eb12e3cfc2aff.png",
+    "static/media/Contact-Image.jpg": "/static/media/Contact-Image.a113c850cccb6dbe8a22.jpg",
+    "static/media/upcoming1.png": "/static/media/upcoming1.b6a504d2b06539baa251.png",
+    "static/media/Services.png": "/static/media/Services.e5abe48b942c8413e151.png",
+    "static/media/upcoming3.png": "/static/media/upcoming3.0402a2f2826264ca9722.png",
+    "static/media/Policy.png": "/static/media/Policy.11334ef94980ab1d78c4.png",
+    "static/media/upcoming2.png": "/static/media/upcoming2.276c9d62675735d2e352.png",
+    "static/media/client1.jpg": "/static/media/client1.cbc7da3016c3b05fd1f9.jpg",
+    "static/media/About-Image.jpg": "/static/media/About-Image.a9010b800da3dd903b46.jpg",
+    "static/media/Project-img.png": "/static/media/Project-img.77f4fbb192b72fe1b20a.png",
+    "static/media/client3.png": "/static/media/client3.2fdce6e4490bcbc197b6.png",
+    "static/media/client2.jpg": "/static/media/client2.a5d859e0ca35eb583f2c.jpg",
+    "static/media/Hero-main.png": "/static/media/Hero-main.5326f37eaacabc275949.png",
+    "static/media/video-img.png": "/static/media/video-img.e09188f3ff00584df510.png",
+    "static/media/Slide-1.png": "/static/media/Slide-1.440c3dcb317f1bc3810b.png",
+    "static/media/Slide-4.png": "/static/media/Slide-4.546b61364d068dd25472.png",
+    "static/media/Slide-2.png": "/static/media/Slide-2.5bbb084f114b463cad11.png",
+    "static/media/Slide-3.png": "/static/media/Slide-3.a8a6f4b5757dbbe3267c.png",
+    "static/media/Hero-3.png": "/static/media/Hero-3.0b2b56029d20551c2f3e.png",
+    "static/media/Hero-1.png": "/static/media/Hero-1.cabd899b9757da92510a.png",
+    "static/media/Heo-1.png": "/static/media/Heo-1.348c8bb2727b6a4e232c.png",
+    "static/media/Whatsapp.png": "/static/media/Whatsapp.ba6bdef5205745732f4d.png",
+    "static/media/pnf.png": "/static/media/pnf.8e7201d3ceef85fe888a.png",
+    "static/media/slick.svg": "/static/media/slick.7ba97953187dc2907930.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.2d2799a2.css.map": "/static/css/main.2d2799a2.css.map",
+    "main.5676cb20.js.map": "/static/js/main.5676cb20.js.map",
+    "787.661f6067.chunk.js.map": "/static/js/787.661f6067.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d2799a2.css",
+    "static/js/main.5676cb20.js"
+  ]
+}
